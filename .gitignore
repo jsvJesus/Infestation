@@ -1,0 +1,54 @@
+############################################
+# NEVER PUSH: External SDK
+############################################
+src/External/
+**/External/
+
+############################################
+# User explicit excludes
+############################################
+*.bat
+*.lib
+*.dll
+*.exe
+*.png
+*.rc
+*.rc2
+*.obj
+*.obj.*
+
+############################################
+# Visual Studio / build artifacts (recommended)
+############################################
+.vs/
+ipch/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# Common build folders
+**/Debug/
+**/Release/
+**/x64/
+**/Win32/
+**/bin/
+**/obj/
+**/Binaries/
+**/Intermediate/
+
+# Toolchain artifacts
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.log
+*.tlog
+*.cache
+*.aps
+*.res
+*.pch
+*.ipdb
+*.iobj
